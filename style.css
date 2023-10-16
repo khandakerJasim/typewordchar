@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+* {
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 100;
+}
+.container{
+    height:500px;
+    width: 500px;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    display:flex;
+ 
+
+}
+.counter{
+    
+    width:300px;
+    display: flex;
+    
+    justify-content: space-around;
+    text-align: center;
+}
+span{
+    align-items: center;
+    color:blue;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.character,
+.word{
+    background-color: aliceblue;
+    align-items:center;
+    justify-content: center;
+    width:100px;
+    height:70px;
+    border-radius: 3px;
+    padding: auto;
+}
+textarea{
+    color:black;
+    height:300px;
+    width:400px;
+    border-radius: 5px;
+    box-shadow: 3px;
+    font-size: 23px;
+    font-weight: 5px;
+    background-color:wheat;
+
+}
